@@ -2,10 +2,15 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {backgroundImage: {
-      'hero-pattern': "url('../images/hero-slider-1.jpg')",
-     
-    }},
+    animation: {
+      "bg-animation": "smoothScale 7s linear forwards",
+    },
+    keyframes: {
+      smoothScale: {
+       " 0% ":{ transform: "scale(1)" },
+        "100% ":{ transform:" scale(1.15)" },
+      },
+    },
   },
   plugins: [],
-}
+};
