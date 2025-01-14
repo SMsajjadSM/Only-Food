@@ -5,8 +5,8 @@ module.exports = {
     animation: {
       "bg-animation": "smoothScale 7s linear forwards",
       "animation-li": " sliderReveal 1s ease forwards",
+      "animation-updown": " updown 5s linear infinite",
     },
-     
 
     keyframes: {
       smoothScale: {
@@ -22,6 +22,12 @@ module.exports = {
           transform: "translateY(0)",
           opacity: "1",
         },
+      },
+      updown: {
+        "0%": { transform: "translateY(0)" },
+        " 100%": { transform: "translateY(0) " },
+
+        " 50%": { transform: "translateY(30px)" },
       },
     },
   },
