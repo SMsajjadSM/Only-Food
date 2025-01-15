@@ -6,6 +6,7 @@ module.exports = {
       "bg-animation": "smoothScale 7s linear forwards",
       "animation-li": " sliderReveal 1s ease forwards",
       "animation-updown": " updown 5s linear infinite",
+      "animation-rotate": " rotate 15s linear infinite",
     },
 
     keyframes: {
@@ -29,6 +30,11 @@ module.exports = {
 
         " 50%": { transform: "translateY(30px)" },
       },
+      rotate: {
+        "0%": { transform: "rotate(0deg)" },
+        " 100%": { transform: "rotate(380deg) " },
+
+         },
     },
   },
   plugins: [],
