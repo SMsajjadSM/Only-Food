@@ -2,6 +2,14 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
+    extend: {
+      colors: {
+        silver: {
+          50: "#a6a6a6",
+        },
+        gold: { 50: "#e4c590" },
+      },
+    },
     animation: {
       "bg-animation": "smoothScale 7s linear forwards",
       "animation-li": " sliderReveal 1s ease forwards",
@@ -33,8 +41,7 @@ module.exports = {
       rotate: {
         "0%": { transform: "rotate(0deg)" },
         " 100%": { transform: "rotate(380deg) " },
-
-         },
+      },
     },
   },
   plugins: [],
