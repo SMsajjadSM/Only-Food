@@ -847,11 +847,11 @@
       </div>
     </section>
     <section
-      class="relative mx-auto mb-52 flex h-screen w-screen items-center justify-center bg-silver-100"
+      class="relative mx-auto mb-52 flex h-[130vh] w-screen items-center justify-center bg-silver-100"
     >
       <div class="absolute -top-56 flex w-[60rem] items-center justify-center">
         <div
-          class="flex w-[49rem] flex-col items-center justify-center space-y-5 bg-silver-250 p-10"
+          class="flex w-[49rem] flex-col items-center justify-center space-y-5 bg-silver-250 p-14 pb-32"
         >
           <h3 class="mt-10 text-6xl">Online Reservation</h3>
           <p class="mb-7 mt-2">
@@ -861,19 +861,19 @@
           <div class="space-x-3">
             <input
               type="text"
-              class="w-80 appearance-none border border-solid border-silver-200 bg-silver-150 p-2 outline-none duration-300 placeholder:text-white focus:border-gold-50 focus:outline-none"
+              class="w-80 appearance-none border border-solid border-silver-200 bg-silver-150 p-3 outline-none duration-300 placeholder:text-white focus:border-gold-50 focus:outline-none"
               placeholder="Your Name"
             />
             <input
               type="text"
               placeholder="Phone Number"
-              class="w-80 appearance-none border border-solid border-silver-200 bg-silver-150 p-2 outline-none duration-300 placeholder:text-white focus:border-gold-50 focus:outline-none"
+              class="w-80 appearance-none border border-solid border-silver-200 bg-silver-150 p-3 outline-none duration-300 placeholder:text-white focus:border-gold-50 focus:outline-none"
             />
           </div>
           <div class="space-x-3">
             <select
               name=""
-              class="w-52 appearance-none border border-solid border-silver-200 bg-silver-150 p-2 outline-none duration-300 placeholder:text-white focus:border-gold-50 focus:outline-none"
+              class="w-52 appearance-none border border-solid border-silver-200 bg-silver-150 p-3 outline-none duration-300 placeholder:text-white focus:border-gold-50 focus:outline-none"
               id=""
             >
               <option value="">1 Person</option>
@@ -886,14 +886,15 @@
             </select>
             <input
               type="date"
-              class="w-52 appearance-none border border-solid border-silver-200 bg-silver-150 p-2 outline-none duration-300 placeholder:text-white focus:border-gold-50 focus:outline-none"
+              class="w-52 appearance-none border border-solid border-silver-200 bg-silver-150 p-3 outline-none duration-300 placeholder:text-white focus:border-gold-50 focus:outline-none"
               name=""
               id=""
             />
+
             <select
               name=""
               id=""
-              class="w-52 appearance-none border border-solid border-silver-200 bg-silver-150 p-2 outline-none duration-300 placeholder:text-white focus:border-gold-50 focus:outline-none"
+              class="relative w-52 appearance-none border border-solid border-silver-200 bg-silver-150 p-3 outline-none duration-300 placeholder:text-white focus:border-gold-50 focus:outline-none"
             >
               <option value="">08:00 am</option>
               <option value="">09:00 am</option>
@@ -916,7 +917,7 @@
             placeholder="Message"
             name=""
             id=""
-            class="h-36 w-[41rem] resize-none appearance-none border border-solid border-silver-200 bg-silver-150 p-2 outline-none duration-300 placeholder:text-white focus:border-gold-50 focus:outline-none"
+            class="h-36 w-[41rem] resize-none appearance-none border border-solid border-silver-200 bg-silver-150 p-3 outline-none duration-300 placeholder:text-white focus:border-gold-50 focus:outline-none"
           ></textarea
           ><a
             href="#_"
@@ -937,16 +938,84 @@
             ></span>
           </a>
         </div>
-        <div>
-          <h3>CONTACT US</h3>
-          <p>Booking Request</p>
+        <div
+          class="z-50 flex flex-col items-center justify-center space-y-2 bg-silver-250 bg-hero-pattern bg-center p-[13px] text-center text-silver-50"
+        >
+          <h3 class="px-16 pb-6 pt-24 text-5xl text-white">
+            CONTACT <br />
+            US
+          </h3>
+          <p class="font-semibold text-white">Booking Request</p>
           <a
             href=""
-            class="relative py-2 text-2xl text-gold-50 duration-150 after:absolute after:-bottom-2 after:right-[72px] after:w-0 after:border-y-2 after:border-gold-50 after:p-[2px] after:opacity-0 after:duration-300 after:content-[''] hover:text-gold-50 hover:after:scale-x-[37] hover:after:opacity-100"
+            class="relative pb-4 text-2xl text-gold-50 duration-150 after:absolute after:bottom-0 after:right-[72px] after:w-0 after:border-y-2 after:border-gold-50 after:p-[2px] after:opacity-0 after:duration-300 after:content-[''] hover:text-gold-50 hover:after:scale-x-[37] hover:after:opacity-100"
             >09924327943</a
           >
+          <div class="h-[8px] w-[8px] rotate-45 border border-gold-50"></div>
+          <h3 class="pt-3 font-semibold text-white">Location</h3>
+          <p class="pb-4">
+            Restaurant St, Delicious City, <br />
+            London 9578, UK
+          </p>
+          <h3 class="font-semibold text-white">Lunch Time</h3>
+          <p class="pb-4">
+            Monday to Sunday <br />
+            11.00 am - 2.30pm
+          </p>
+          <h3 class="font-semibold text-white">Dinner Time</h3>
+          <p class="pb-12">
+            Monday to Sunday <br />
+            05.00 pm - 10.00pm
+          </p>
         </div>
       </div>
+      <div class="flex mt-48  flex-col items-center justify-center text-center">
+        <p class="z-10 pt-60 uppercase text-gold-50">Special Selection</p>
+        <img
+          src="../images/separator.svg"
+          class="m-4 mx-auto"
+          width="100x"
+          height="30px"
+          alt="logo"
+        />
+        <h3 class="text-6xl">Our Strength</h3>
+        <div class="flex mt-14 space-x-10 text-silver-50">
+          <div
+            class="bg-silver-300 group flex flex-col items-center justify-center space-y-5 p-10"
+          >
+            <img
+              src="../images/features-icon-1.png"
+              class="group-hover:rotate-180 duration-500 group-hover:-scale-100"
+              alt=""
+            />
+            <h3 class="text-2xl text-white">Hygienic Food</h3>
+            <p>Lorem Ipsum is simply dummy <br />printing and typesetting.</p>
+          </div>
+          <div
+            class="bg-silver-350 group flex flex-col items-center justify-center space-y-5 p-10"
+          >
+            <img src="../images/features-icon-2.png" class="group-hover:rotate-180 duration-500 group-hover:-scale-100" alt="" />
+            <h3 class="text-2xl text-white">Fresh Environment</h3>
+            <p>Lorem Ipsum is simply dummy <br />printing and typesetting.</p>
+          </div>
+          <div
+            class="bg-silver-300 group flex flex-col items-center justify-center space-y-5 p-10"
+          >
+            <img src="../images/features-icon-3.png" class="group-hover:rotate-180 duration-500 group-hover:-scale-100" alt="" />
+            <h3 class="text-2xl text-white">Skilled Chefs</h3>
+            <p>Lorem Ipsum is simply dummy <br />printing and typesetting.</p>
+          </div>
+          <div
+            class="bg-silver-350 group flex flex-col items-center justify-center space-y-5 p-10"
+          >
+            <img src="../images/features-icon-4.png" class="group-hover:rotate-180 duration-500 group-hover:-scale-100" alt="" />
+            <h3 class="text-2xl text-white">Event & Party</h3>
+            <p>Lorem Ipsum is simply dummy <br />printing and typesetting.</p>
+          </div>
+        </div>
+      </div>
+      <img src="../images/shape-7.png" class="absolute right-4 top-96" alt="">
+      <img src="../images/shape-8.png" class="absolute left-4 bottom-32" alt="">
     </section>
   </body>
   <script src="https://unpkg.com/scrollreveal"></script>
