@@ -3,15 +3,9 @@
   "devDependencies": {
     "prettier": "^3.4.2",
     "prettier-plugin-tailwindcss": "^0.6.9",
-    "tailwindcss": "^3.4.16",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "tailwindcss": "^3.4.16"
   },
   "scripts": {
     "watch": "tailwindcss -i ./src/input.css -o ./src/output.css --watch"
-  
-  },
-  "dependencies": {
-    "gh-pages": "^6.3.0"
   }
 }
