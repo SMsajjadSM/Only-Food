@@ -598,6 +598,10 @@ video {
   left: -300px;
 }
 
+.-right-5 {
+  right: -1.25rem;
+}
+
 .-right-96 {
   right: -24rem;
 }
@@ -610,12 +614,12 @@ video {
   top: -4rem;
 }
 
-.-top-56 {
-  top: -14rem;
-}
-
 .-top-8 {
   top: -2rem;
+}
+
+.-top-80 {
+  top: -20rem;
 }
 
 .bottom-14 {
@@ -696,6 +700,10 @@ video {
 
 .-z-10 {
   z-index: -10;
+}
+
+.z-0 {
+  z-index: 0;
 }
 
 .z-10 {
@@ -801,6 +809,10 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.mb-28 {
+  margin-bottom: 7rem;
+}
+
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -849,8 +861,8 @@ video {
   margin-top: 0.5rem;
 }
 
-.mt-72 {
-  margin-top: 18rem;
+.mt-48 {
+  margin-top: 12rem;
 }
 
 .mt-8 {
@@ -914,8 +926,12 @@ video {
   height: 26rem;
 }
 
-.h-\[38rem\] {
-  height: 38rem;
+.h-\[35rem\] {
+  height: 35rem;
+}
+
+.h-\[55rem\] {
+  height: 55rem;
 }
 
 .h-\[8px\] {
@@ -978,6 +994,10 @@ video {
   width: 49rem;
 }
 
+.w-\[60rem\] {
+  width: 60rem;
+}
+
 .w-\[8px\] {
   width: 8px;
 }
@@ -1008,6 +1028,11 @@ video {
 
 .-translate-x-56 {
   --tw-translate-x: -14rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-y-16 {
+  --tw-translate-y: -4rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -1145,6 +1170,10 @@ video {
   grid-template-rows: repeat(2, minmax(0, 1fr));
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -1217,6 +1246,12 @@ video {
   margin-left: calc(2px * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.space-y-0 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0px * var(--tw-space-y-reverse));
+}
+
 .space-y-10 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
@@ -1271,10 +1306,6 @@ video {
 
 .overflow-x-hidden {
   overflow-x: hidden;
-}
-
-.rounded {
-  border-radius: 0.25rem;
 }
 
 .rounded-full {
@@ -1516,8 +1547,8 @@ video {
   padding-right: 5rem;
 }
 
-.pt-10 {
-  padding-top: 2.5rem;
+.pt-20 {
+  padding-top: 5rem;
 }
 
 .pt-24 {
@@ -1526,6 +1557,10 @@ video {
 
 .pt-3 {
   padding-top: 0.75rem;
+}
+
+.pt-60 {
+  padding-top: 15rem;
 }
 
 .text-left {
@@ -1561,6 +1596,11 @@ video {
 
 .text-6xl {
   font-size: 3.75rem;
+  line-height: 1;
+}
+
+.text-8xl {
+  font-size: 6rem;
   line-height: 1;
 }
 
