@@ -11,7 +11,7 @@
     <!-- //...Header...// -->
     <section class="relative h-screen overflow-hidden">
       <section
-        class="flex items-center justify-between border-b border-gold-50 border-opacity-30 p-3 pb-3"
+        class="hidden items-center justify-between border-b border-gold-50 border-opacity-30 p-3 pb-3 sm:flex"
       >
         <div class="flex">
           <div class="leftanim1 mx-2 flex">
@@ -107,7 +107,7 @@
           <img src="../images/logo.svg" alt="logo of sites" />
         </a>
         <nav>
-          <ul class="navbar flex space-x-3">
+          <ul class="navbar hidden space-x-3 sm:flex">
             <li
               class="relative py-2 duration-150 after:absolute after:bottom-0 after:right-5 after:w-0 after:border-y-2 after:border-gold-50 after:p-[2px] after:opacity-0 after:duration-300 after:content-[''] hover:text-gold-50 hover:after:scale-x-[11] hover:after:opacity-100"
             >
@@ -137,7 +137,7 @@
         </nav>
 
         <button
-          class="btnclick group relative z-10 h-12 w-32 cursor-pointer overflow-hidden rounded-md border-none bg-gold-50 p-2 text-xs font-bold text-black"
+          class="btnclick group relative z-10 hidden h-12 w-32 cursor-pointer overflow-hidden rounded-md border-none bg-gold-50 p-2 text-xs font-bold text-black sm:flex"
         >
           Find a Table!
           <span
@@ -184,7 +184,7 @@
             </div>
 
             <h1
-              class="pslide mb-6 -translate-y-8 animate-animation-li text-8xl tracking-normal opacity-0"
+              class="pslide mb-6  -translate-y-8 animate-animation-li sm:text-8xl text-6xl tracking-normal opacity-0"
             >
               For the love of <br />
               delicious food
@@ -244,7 +244,7 @@
             </div>
 
             <h1
-              class="pslide mb-6 -translate-y-8 text-8xl tracking-normal opacity-0"
+              class="pslide mb-6 -translate-y-8 sm:text-8xl text-6xl tracking-normal opacity-0"
             >
               Flavors Inspired by
               <br />
@@ -304,7 +304,7 @@
             </div>
 
             <h1
-              class="pslide mb-6 -translate-y-8 text-8xl tracking-normal opacity-0"
+              class="pslide mb-6 -translate-y-8 sm:text-8xl text-6xl tracking-normal opacity-0"
             >
               Where every flavor <br />
               tells a story
@@ -339,7 +339,7 @@
           </li>
         </ul>
         <button
-          class="btnnext group absolute right-8 top-2/4 mr-6 rotate-45 border border-gold-50 p-2 duration-200 hover:bg-gold-50"
+          class="btnnext group absolute right-8 top-2/4 mr-6 hidden rotate-45 border border-gold-50 p-2 duration-200 hover:bg-gold-50 sm:flex"
           onclick="nextSlide(-1)"
         >
           <svg
@@ -358,7 +358,7 @@
           </svg>
         </button>
         <button
-          class="btnprev group absolute left-8 top-2/4 ml-6 rotate-45 border border-gold-50 p-2 duration-200 hover:bg-gold-50"
+          class="btnprev group absolute left-8 top-2/4 ml-6 hidden rotate-45 border border-gold-50 p-2 duration-200 hover:bg-gold-50 sm:flex"
           onclick="nextSlide(1)"
         >
           <svg
