@@ -7,7 +7,9 @@
 
     <title>Only Food</title>
   </head>
-  <body class="overflow-x-hidden bg-silver-250 font-serif text-white [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-gold-50 dark:[&::-webkit-scrollbar-thumb]:bg-gold-50 [&::-webkit-scrollbar-track]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 dark:[&::-webkit-scrollbar-track]:bg-neutral-700 [&::-webkit-scrollbar]:w-2">
+  <body
+    class="overflow-x-hidden bg-silver-250 font-serif text-white [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-gold-50 dark:[&::-webkit-scrollbar-thumb]:bg-gold-50 [&::-webkit-scrollbar-track]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 dark:[&::-webkit-scrollbar-track]:bg-neutral-700 [&::-webkit-scrollbar]:w-2"
+  >
     <!-- //...Header...// -->
     <section class="relative h-screen overflow-hidden">
       <section
@@ -473,12 +475,12 @@
       </div>
       <img
         src="../images/shape-2.png"
-        class="absolute -right-[305px] top-0 animate-animation-updown"
+        class="absolute -right-[305px] top-0 hidden animate-animation-updown sm:flex"
         alt=""
       />
       <img
         src="../images/shape-1.png"
-        class="absolute -bottom-[80px] -left-[300px] animate-animation-updown"
+        class="absolute -bottom-[80px] -left-[300px] hidden animate-animation-updown sm:flex"
         alt=""
       />
     </section>
@@ -632,7 +634,7 @@
         />
         <img
           src="../images/shape-4.png"
-          class="absolute -right-96 bottom-36"
+          class="absolute -right-96 bottom-36 hidden sm:flex"
           alt=""
         />
       </div>
@@ -658,7 +660,7 @@
       <h3 class="z-10 text-3xl sm:text-6xl">Delicious Menu</h3>
 
       <div class="z-10 flex flex-col sm:flex-row sm:space-x-20">
-        <ul class="space-y-12 border-r border-silver-50 pr-0 sm:pr-20">
+        <ul class="space-y-12 border-r border-silver-50">
           <li
             class="flex items-center justify-center duration-300 hover:-translate-x-6"
           >
@@ -673,7 +675,7 @@
                   >
                 </h3>
                 <div
-                  class="mx-2 mt-2 h-2 w-16 border-b border-t border-silver-50 border-opacity-30"
+                  class="mx-2 mt-2 hidden h-2 w-16 border-b border-t border-silver-50 border-opacity-30 sm:flex"
                 ></div>
                 <div class="mx-3 text-gold-50">$25.50</div>
               </div>
@@ -693,7 +695,7 @@
               <div class="mb-2 flex">
                 <h3 class="uppercase">lasagne</h3>
                 <div
-                  class="mx-2 mt-2 h-2 w-52 border-b border-t border-silver-50 border-opacity-30"
+                  class="mx-2 mt-2 hidden h-2 w-52 border-b border-t border-silver-50 border-opacity-30 sm:flex"
                 ></div>
                 <div class="mx-3 text-gold-50">$25.50</div>
               </div>
@@ -713,7 +715,7 @@
               <div class="mb-2 flex">
                 <h3 class="uppercase">butternut pumpkin</h3>
                 <div
-                  class="mx-2 mt-2 h-2 w-28 border-b border-t border-silver-50 border-opacity-30"
+                  class="mx-2 mt-2 hidden h-2 w-28 border-b border-t border-silver-50 border-opacity-30 sm:flex"
                 ></div>
                 <div class="mx-3 text-gold-50">$25.50</div>
               </div>
@@ -735,7 +737,7 @@
               <div class="mb-2 flex">
                 <h3 class="uppercase">tokusen wagyu</h3>
                 <div
-                  class="mx-2 mt-2 h-2 w-36 border-b border-t border-silver-50 border-opacity-30"
+                  class="mx-2 mt-2 hidden h-2 w-36 border-b border-t border-silver-50 border-opacity-30 sm:flex"
                 ></div>
                 <div class="mx-3 text-gold-50">$25.50</div>
               </div>
@@ -761,7 +763,7 @@
                   >
                 </h3>
                 <div
-                  class="mx-2 mt-2 h-2 w-16 border-b border-t border-silver-50 border-opacity-30"
+                  class="mx-2 mt-2 hidden h-2 w-16 border-b border-t border-silver-50 border-opacity-30 sm:flex"
                 ></div>
                 <div class="mx-3 text-gold-50">$25.50</div>
               </div>
@@ -781,7 +783,7 @@
               <div class="mb-2 flex">
                 <h3 class="uppercase">opu fish</h3>
                 <div
-                  class="mx-2 mt-2 h-2 w-52 border-b border-t border-silver-50 border-opacity-30"
+                  class="mx-2 mt-2 hidden h-2 w-52 border-b border-t border-silver-50 border-opacity-30 sm:flex"
                 ></div>
                 <div class="mx-3 text-gold-50">$25.50</div>
               </div>
@@ -819,12 +821,12 @@
       </a>
       <img
         src="../images/shape-5.png"
-        class="absolute -bottom-20 left-0 -z-0 animate-animation-updown"
+        class="absolute hidden sm:flex -bottom-20 left-0 -z-0 animate-animation-updown"
         alt=""
       />
       <img
         src="../images/shape-6.png"
-        class="absolute -bottom-20 right-0 -z-0 animate-animation-updown"
+        class="absolute hidden sm:flex -bottom-20 right-0 -z-0 animate-animation-updown"
         alt=""
       />
     </section>
@@ -993,7 +995,7 @@
     </section>
 
     <section
-      class="relative mx-auto flex h-[95rem] w-screen items-center justify-center bg-silver-100 pb-10 sm:h-[70vh]"
+      class="relative mx-auto flex h-auto w-screen items-center justify-center bg-silver-100 pb-10 sm:h-[70vh]"
     >
       <div class="flex flex-col items-center justify-center text-center">
         <p class="z-10 text-[16px] uppercase text-gold-50 sm:text-xl">
@@ -1077,7 +1079,7 @@
     </section>
 
     <section
-      class="flex h-[230vh] flex-col items-center justify-start space-y-10 pt-10 sm:h-[105vh]"
+      class="m-10 flex h-auto flex-col items-center justify-center space-y-5 sm:h-screen sm:space-y-20"
     >
       <div>
         <h2 class="mb-4 text-center text-2xl uppercase text-gold-50">
@@ -1186,41 +1188,43 @@
     </section>
 
     <section
-      class="relative flex h-[195vh] items-center justify-center pr-24 sm:h-screen"
+      class="relative flex h-auto items-center justify-center sm:h-screen"
     >
       <img
         src="/images/footer-bg.jpg"
         alt=""
-        class="absolute left-0 top-0 -z-10 h-[100%] object-cover brightness-100 sm:h-screen"
+        class="absolute left-0 top-0 -z-10 h-[140vh] w-screen bg-cover object-cover brightness-100 sm:h-screen"
       />
 
       <div
-        class="flex flex-col content-center justify-center space-x-24 sm:flex-row"
+        class="mt-16 flex flex-col items-center justify-center space-y-10 sm:flex-row sm:space-x-24"
       >
-        <div class="hidden space-y-9 text-center sm:block">
+        <div
+          class="flex flex-col space-y-5 text-center text-silver-50 sm:space-y-9"
+        >
           <a
             href=""
-            class="relative block py-2 text-xl duration-150 after:absolute after:bottom-0 after:right-11 after:w-0 after:border-y-2 after:border-gold-50 after:p-[2px] after:opacity-0 after:duration-300 after:content-[''] hover:text-gold-50 hover:after:scale-x-[14] hover:after:opacity-100"
+            class="relative py-2 text-xl text-white duration-150 after:absolute after:bottom-0 after:right-[12.5rem] after:w-0 after:border-y-2 after:border-gold-50 after:p-[2px] after:opacity-0 after:duration-300 after:content-[''] hover:text-gold-50 hover:after:scale-x-[19] hover:after:opacity-100 sm:after:right-12"
             >Home</a
           >
           <a
             href=""
-            class="relative block py-2 text-xl duration-150 after:absolute after:bottom-0 after:right-10 after:w-0 after:border-y-2 after:border-gold-50 after:p-[2px] after:opacity-0 after:duration-300 after:content-[''] hover:text-yellow-900 hover:after:scale-x-[15] hover:after:opacity-100"
+            class="relative py-2 text-xl text-white duration-150 after:absolute after:bottom-0 after:right-[12.5rem] after:w-0 after:border-y-2 after:border-gold-50 after:p-[2px] after:opacity-0 after:duration-300 after:content-[''] hover:text-gold-50 hover:after:scale-x-[19] hover:after:opacity-100 sm:after:right-12"
             >Menus</a
           >
           <a
             href=""
-            class="relative block py-2 text-xl duration-150 after:absolute after:bottom-0 after:right-11 after:w-0 after:border-y-2 after:border-gold-50 after:p-[2px] after:opacity-0 after:duration-300 after:content-[''] hover:text-gold-50 hover:after:scale-x-[21] hover:after:opacity-100"
+            class="relative py-2 text-xl text-white duration-150 after:absolute after:bottom-0 after:right-[12.5rem] after:w-0 after:border-y-2 after:border-gold-50 after:p-[2px] after:opacity-0 after:duration-300 after:content-[''] hover:text-gold-50 hover:after:scale-x-[19] hover:after:opacity-100 sm:after:right-12"
             >About Us</a
           >
           <a
             href=""
-            class="relative block py-2 text-xl duration-150 after:absolute after:bottom-0 after:right-10 after:w-0 after:border-y-2 after:border-gold-50 after:p-[2px] after:opacity-0 after:duration-300 after:content-[''] hover:text-yellow-900 hover:after:scale-x-[22] hover:after:opacity-100"
+            class="relative py-2 text-xl text-white duration-150 after:absolute after:bottom-0 after:right-[12.5rem] after:w-0 after:border-y-2 after:border-gold-50 after:p-[2px] after:opacity-0 after:duration-300 after:content-[''] hover:text-gold-50 hover:after:scale-x-[19] hover:after:opacity-100 sm:after:right-12"
             >Our Chefs</a
           >
           <a
             href=""
-            class="relative block py-2 text-xl duration-150 after:absolute after:bottom-0 after:right-11 after:w-0 after:border-y-2 after:border-gold-50 after:p-[2px] after:opacity-0 after:duration-300 after:content-[''] hover:text-gold-50 hover:after:scale-x-[17] hover:after:opacity-100"
+            class="relative py-2 text-xl text-white duration-150 after:absolute after:bottom-0 after:right-[12.5rem] after:w-0 after:border-y-2 after:border-gold-50 after:p-[2px] after:opacity-0 after:duration-300 after:content-[''] hover:text-gold-50 hover:after:scale-x-[19] hover:after:opacity-100 sm:after:right-12"
             >Contact</a
           >
         </div>
@@ -1265,12 +1269,12 @@
             <input
               type="email"
               placeholder="Your email"
-              class="border-none border-gray-800 p-4"
+              class="z-20 border-none border-gray-800 p-4"
             />
 
             <a
               href="#"
-              class="group relative inline-flex flex-col content-center items-center justify-start overflow-hidden border-none px-3 py-3 font-bold"
+              class="group relative z-20 inline-flex flex-col content-center items-center justify-start overflow-hidden border-none px-3 py-3 font-bold"
             >
               <span
                 class="absolute left-0 top-0 h-32 w-32 -translate-y-2 translate-x-12 rotate-45 bg-gold-50 opacity-[3%]"
@@ -1288,33 +1292,6 @@
               ></span>
             </a>
           </div>
-        </div>
-        <div class="mb-4 block space-y-5 text-center sm:hidden sm:space-y-9">
-          <a
-            href=""
-            class="relative block py-2 text-xl text-white duration-150 after:absolute after:bottom-0 after:right-[12.5rem] after:w-0 after:border-y-2 after:border-gold-50 after:p-[2px] after:opacity-0 after:duration-300 after:content-[''] hover:text-gold-50 hover:after:scale-x-[14] hover:after:opacity-100 sm:after:right-11"
-            >Home</a
-          >
-          <a
-            href=""
-            class="relative block py-2 text-xl text-white duration-150 after:absolute after:bottom-0 after:right-[12.5rem] after:w-0 after:border-y-2 after:border-gold-50 after:p-[2px] after:opacity-0 after:duration-300 after:content-[''] hover:text-gold-50 hover:after:scale-x-[15] hover:after:opacity-100 sm:after:right-10"
-            >Menus</a
-          >
-          <a
-            href=""
-            class="relative block py-2 text-xl text-white duration-150 after:absolute after:bottom-0 after:right-[12.5rem] after:w-0 after:border-y-2 after:border-gold-50 after:p-[2px] after:opacity-0 after:duration-300 after:content-[''] hover:text-gold-50 hover:after:scale-x-[21] hover:after:opacity-100 sm:after:right-11"
-            >About Us</a
-          >
-          <a
-            href=""
-            class="relative block py-2 text-xl text-white duration-150 after:absolute after:bottom-0 after:right-[12.5rem] after:w-0 after:border-y-2 after:border-gold-50 after:p-[2px] after:opacity-0 after:duration-300 after:content-[''] hover:text-gold-50 hover:after:scale-x-[22] hover:after:opacity-100 sm:after:right-10"
-            >Our Chefs</a
-          >
-          <a
-            href=""
-            class="relative block py-2 text-xl text-white duration-150 after:absolute after:bottom-0 after:right-[12.5rem] after:w-0 after:border-y-2 after:border-gold-50 after:p-[2px] after:opacity-0 after:duration-300 after:content-[''] hover:text-gold-50 hover:after:scale-x-[17] hover:after:opacity-100 sm:after:right-11"
-            >Contact</a
-          >
         </div>
 
         <div
