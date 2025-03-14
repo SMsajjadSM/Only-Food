@@ -634,7 +634,7 @@
         />
         <img
           src="../images/shape-4.png"
-          class="absolute -right-96 bottom-36 hidden sm:flex"
+          class="absolute -right-96 bottom-30 hidden sm:flex"
           alt=""
         />
       </div>
@@ -821,12 +821,12 @@
       </a>
       <img
         src="../images/shape-5.png"
-        class="absolute hidden sm:flex -bottom-20 left-0 -z-0 animate-animation-updown"
+        class="absolute -bottom-20 left-0 -z-0 hidden animate-animation-updown sm:flex"
         alt=""
       />
       <img
         src="../images/shape-6.png"
-        class="absolute hidden sm:flex -bottom-20 right-0 -z-0 animate-animation-updown"
+        class="absolute -bottom-20 right-0 -z-0 hidden animate-animation-updown sm:flex"
         alt=""
       />
     </section>
@@ -835,9 +835,13 @@
       <div
         class="relative flex h-[55rem] flex-col items-center justify-start space-y-5"
       >
-        <img src="../images/testimonial-bg.jpg" class="absolute -z-10" alt="" />
+        <img
+          src="../images/testimonial-bg.jpg"
+          class="absolute -z-10 h-screen"
+          alt=""
+        />
         <div class="pt-20 text-5xl">”</div>
-        <p class="text-center text-5xl tracking-wide">
+        <p class="text-center text-2xl tracking-wide sm:text-5xl">
           I wanted to thank you for inviting me <br />
           down for that amazing dinner the <br />
           other night. The food was <br />
@@ -865,27 +869,29 @@
       </div>
     </section>
     <section
-      class="relative mx-auto flex h-[60vh] w-screen items-center justify-center bg-silver-100"
+      class="relative mx-auto flex h-[150vh] sm:h-[60vh] w-screen items-center justify-center bg-silver-100"
     >
-      <div class="absolute -top-80 flex w-[60rem] items-center justify-center">
+      <div
+        class="absolute -top-80 flex w-[60rem] flex-col-reverse  items-center justify-center sm:-top-80  sm:flex-row"
+      >
         <div
-          class="flex w-[49rem] flex-col items-center justify-center space-y-5 bg-silver-250 p-14 pb-32"
+          class="mt-2 flex w-auto flex-col items-center justify-center space-y-5 bg-silver-250 p-14 pb-32 sm:w-[49rem]"
         >
-          <h3 class="mt-10 text-6xl">Online Reservation</h3>
+          <h3 class="mt-10 text-2xl sm:text-6xl">Online Reservation</h3>
           <p class="mb-7 mt-2">
             Booking request <span class="text-gold-50">09924327943</span> or
             fill out the order form
           </p>
-          <div class="space-x-3">
+          <div class="flex items-center justify-around sm:space-x-3">
             <input
               type="text"
-              class="w-80 appearance-none border border-solid border-silver-200 bg-silver-150 p-3 outline-none duration-300 placeholder:text-white focus:border-gold-50 focus:outline-none"
+              class="w-[40%] appearance-none border border-solid border-silver-200 bg-silver-150 p-3 outline-none duration-300 placeholder:text-white focus:border-gold-50 focus:outline-none sm:w-80"
               placeholder="Your Name"
             />
             <input
               type="text"
               placeholder="Phone Number"
-              class="w-80 appearance-none border border-solid border-silver-200 bg-silver-150 p-3 outline-none duration-300 placeholder:text-white focus:border-gold-50 focus:outline-none"
+              class="w-[40%] appearance-none border border-solid border-silver-200 bg-silver-150 p-3 outline-none duration-300 placeholder:text-white focus:border-gold-50 focus:outline-none sm:w-80"
             />
           </div>
           <div class="space-x-3">
@@ -1193,7 +1199,7 @@
       <img
         src="/images/footer-bg.jpg"
         alt=""
-        class="absolute left-0 top-0 -z-10 h-[140vh] w-screen bg-cover object-cover brightness-100 sm:h-screen"
+        class="absolute left-0 top-0 -z-10 h-[190vh] w-screen bg-cover object-cover brightness-100 sm:h-screen"
       />
 
       <div
