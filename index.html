@@ -896,10 +896,10 @@
       class="relative mx-auto flex h-[150vh] w-screen items-center justify-center bg-silver-100 sm:h-[60vh]"
     >
       <div
-        class="absolute -top-80 flex w-[60rem] flex-col-reverse items-center justify-center sm:-top-80 sm:h-[80vh] sm:w-[80vh] sm:flex-row"
+        class="absolute -top-80 flex max-w-[60rem] flex-col-reverse items-center justify-center sm:-top-80 sm:flex-row"
       >
         <div
-          class="mt-2 flex w-auto flex-col items-center justify-center space-y-5 bg-silver-250 p-14 pb-32 sm:w-[49rem]"
+          class="flex max-w-[80%] flex-col items-center justify-center space-y-5 bg-silver-250 p-7 pb-5 sm:w-auto sm:p-14 sm:pb-32"
         >
           <h3 class="mt-10 text-2xl sm:text-6xl">Online Reservation</h3>
           <p class="mb-7 mt-2">
@@ -909,19 +909,19 @@
           <div class="flex items-center justify-around sm:space-x-3">
             <input
               type="text"
-              class="w-[40%] appearance-none border border-solid border-silver-200 bg-silver-150 p-3 outline-none duration-300 placeholder:text-white focus:border-gold-50 focus:outline-none sm:w-80"
+              class="w-[50%] appearance-none border border-solid border-silver-200 bg-silver-150 p-3 outline-none duration-300 placeholder:text-white focus:border-gold-50 focus:outline-none sm:w-80"
               placeholder="Your Name"
             />
             <input
               type="text"
               placeholder="Phone Number"
-              class="w-[40%] appearance-none border border-solid border-silver-200 bg-silver-150 p-3 outline-none duration-300 placeholder:text-white focus:border-gold-50 focus:outline-none sm:w-80"
+              class="w-[50%] appearance-none border border-solid border-silver-200 bg-silver-150 p-3 outline-none duration-300 placeholder:text-white focus:border-gold-50 focus:outline-none sm:w-80"
             />
           </div>
-          <div class="space-x-3">
+          <div class="sm:space-x-3 space-y-3 space-x-0">
             <select
               name=""
-              class="w-52 appearance-none border border-solid border-silver-200 bg-silver-150 p-3 outline-none duration-300 placeholder:text-white focus:border-gold-50 focus:outline-none"
+              class="w-[100%] appearance-none border border-solid border-silver-200 bg-silver-150 p-3 outline-none duration-300 placeholder:text-white focus:border-gold-50 focus:outline-none sm:w-52"
               id=""
             >
               <option value="">1 Person</option>
@@ -934,7 +934,7 @@
             </select>
             <input
               type="date"
-              class="w-52 appearance-none border border-solid border-silver-200 bg-silver-150 p-3 outline-none duration-300 placeholder:text-white focus:border-gold-50 focus:outline-none"
+              class="m-0 w-[100%] appearance-none border border-solid border-silver-200 bg-silver-150 p-3 outline-none duration-300 placeholder:text-white focus:border-gold-50 focus:outline-none sm:w-52"
               name=""
               id=""
             />
@@ -942,7 +942,7 @@
             <select
               name=""
               id=""
-              class="relative w-52 appearance-none border border-solid border-silver-200 bg-silver-150 p-3 outline-none duration-300 placeholder:text-white focus:border-gold-50 focus:outline-none"
+              class="relative w-[100%] sm:w-52 appearance-none border border-solid border-silver-200 bg-silver-150 p-3 outline-none duration-300 placeholder:text-white focus:border-gold-50 focus:outline-none"
             >
               <option value="">08:00 am</option>
               <option value="">09:00 am</option>
@@ -965,11 +965,11 @@
             placeholder="Message"
             name=""
             id=""
-            class="h-36 w-[41rem] resize-none appearance-none border border-solid border-silver-200 bg-silver-150 p-3 outline-none duration-300 placeholder:text-white focus:border-gold-50 focus:outline-none"
+            class="h-36 w-[100%] resize-none appearance-none border border-solid border-silver-200 bg-silver-150 p-3 outline-none duration-300 placeholder:text-white focus:border-gold-50 focus:outline-none sm:w-[41rem]"
           ></textarea
           ><a
             href="#_"
-            class="group relative inline-flex w-[41rem] items-center justify-start overflow-hidden rounded-md px-3 py-3 font-bold"
+            class="group relative inline-flex w-[100%] items-center justify-start overflow-hidden rounded-md px-3 py-3 font-bold sm:w-[41rem]"
           >
             <span
               class="bg-gold-50opacity-[3%] absolute left-0 top-0 h-32 w-32 -translate-y-2 translate-x-12 rotate-45"
@@ -987,7 +987,7 @@
           </a>
         </div>
         <div
-          class="z-50 flex flex-col items-center justify-center space-y-2 bg-silver-250 bg-hero-pattern bg-center p-[13px] text-center text-silver-50"
+          class="z-50 mb-5 flex flex-col items-center justify-center space-y-2 bg-silver-250 bg-hero-pattern bg-center p-[13px] text-center text-silver-50 sm:mb-0"
         >
           <h3 class="px-16 pb-6 pt-24 text-5xl text-white">
             CONTACT <br />
@@ -1041,10 +1041,10 @@
         <h3 class="text-3xl sm:text-6xl">Our Strength</h3>
 
         <div
-          class="mt-14 flex flex-col items-center justify-center space-y-8 text-silver-50 sm:flex-row sm:space-x-10 sm:space-y-0"
+          class="mt-14  flex flex-col items-center justify-center space-y-8 text-silver-50 sm:flex-row sm:space-x-10 sm:space-y-0"
         >
           <div
-            class="group flex h-[18rem] w-[30rem] flex-col items-center justify-center space-y-5 bg-silver-300 p-10 sm:h-[19rem] sm:w-[19rem]"
+            class="group flex h-[18rem] w-[80%] flex-col items-center justify-center space-y-5 bg-silver-300 p-10 sm:h-[19rem] sm:w-[19rem]"
           >
             <img
               src="../images/features-icon-1.png"
@@ -1058,7 +1058,7 @@
             </p>
           </div>
           <div
-            class="s:h-[19rem] group flex h-[18rem] w-[30rem] flex-col items-center justify-center space-y-5 bg-silver-350 p-10 sm:w-[19rem]"
+            class="s:h-[19rem] group flex h-[18rem] w-[80%] flex-col items-center justify-center space-y-5 bg-silver-350 p-10 sm:w-[19rem]"
           >
             <img
               src="../images/features-icon-2.png"
@@ -1072,7 +1072,7 @@
             </p>
           </div>
           <div
-            class="group flex h-[18rem] w-[30rem] flex-col items-center justify-center space-y-5 bg-silver-300 p-10 sm:h-[19rem] sm:w-[19rem]"
+            class="group flex h-[18rem] w-[80%] flex-col items-center justify-center space-y-5 bg-silver-300 p-10 sm:h-[19rem] sm:w-[19rem]"
           >
             <img
               src="../images/features-icon-3.png"
@@ -1086,7 +1086,7 @@
             </p>
           </div>
           <div
-            class="group flex h-[18rem] w-[30rem] flex-col items-center justify-center space-y-5 bg-silver-350 p-10 sm:h-[19rem] sm:w-[19rem]"
+            class="group flex h-[18rem] w-[80%] flex-col items-center justify-center space-y-5 bg-silver-350 p-10 sm:h-[19rem] sm:w-[19rem]"
           >
             <img
               src="../images/features-icon-4.png"
