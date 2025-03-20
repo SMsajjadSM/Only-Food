@@ -884,14 +884,6 @@ video {
   margin-top: 2rem;
 }
 
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
-
-.mb-1 {
-  margin-bottom: 0.25rem;
-}
-
 .inline-block {
   display: inline-block;
 }
@@ -1001,10 +993,6 @@ video {
   height: 100vh;
 }
 
-.h-\[130vh\] {
-  height: 130vh;
-}
-
 .w-14 {
   width: 3.5rem;
 }
@@ -1079,6 +1067,58 @@ video {
 
 .w-screen {
   width: 100vw;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.w-\[40\] {
+  width: 40;
+}
+
+.w-\[40\%\] {
+  width: 40%;
+}
+
+.w-\[60\%\] {
+  width: 60%;
+}
+
+.w-\[70\%\] {
+  width: 70%;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[65\] {
+  width: 65;
+}
+
+.w-\[65\%\] {
+  width: 65%;
+}
+
+.w-\[90\] {
+  width: 90;
+}
+
+.w-\[90\%\] {
+  width: 90%;
+}
+
+.w-\[95\%\] {
+  width: 95%;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.w-\[85\%\] {
+  width: 85%;
 }
 
 .max-w-7xl {
@@ -1534,6 +1574,50 @@ video {
   padding: 13px;
 }
 
+.p-\[14px\] {
+  padding: 14px;
+}
+
+.p-\[16px\] {
+  padding: 16px;
+}
+
+.p-\[18px\] {
+  padding: 18px;
+}
+
+.p-\[19px\] {
+  padding: 19px;
+}
+
+.p-\[1px\] {
+  padding: 1px;
+}
+
+.p-\[20px\] {
+  padding: 20px;
+}
+
+.p-\[2px\] {
+  padding: 2px;
+}
+
+.p-\[21px\] {
+  padding: 21px;
+}
+
+.p-\[px\] {
+  padding: px;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
+}
+
 .px-16 {
   padding-left: 4rem;
   padding-right: 4rem;
@@ -1582,6 +1666,16 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
 }
 
 .pb-10 {
@@ -2213,6 +2307,10 @@ video {
     margin-top: 0px;
   }
 
+  .sm\:block {
+    display: block;
+  }
+
   .sm\:flex {
     display: flex;
   }
@@ -2271,6 +2369,10 @@ video {
 
   .sm\:w-auto {
     width: auto;
+  }
+
+  .sm\:w-full {
+    width: 100%;
   }
 
   @media (min-width: 640px) {
@@ -2345,6 +2447,24 @@ video {
     padding: 3.5rem;
   }
 
+  .sm\:p-\[19px\] {
+    padding: 19px;
+  }
+
+  .sm\:p-16 {
+    padding: 4rem;
+  }
+
+  .sm\:px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .sm\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
   .sm\:pb-32 {
     padding-bottom: 8rem;
   }
@@ -2372,6 +2492,11 @@ video {
   .sm\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .sm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .sm\:after\:right-12::after {
